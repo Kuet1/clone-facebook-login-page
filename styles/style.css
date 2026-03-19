@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    gap: 50px;
+}
+
+
+.banner-container{
+    display: flex;
+    flex: 1 1 50%;
+    min-width: 60%;
+    border-left: 1px solid #aeaaaa85;
+}
+
+.banner-content{
+    display: flex;
+    margin-top: 40px;
+    flex: 2 1 60%;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+
+
+.banner-text h2{
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.banner-container img{
+    flex: 1 1 40%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    object-fit: contain;
+    background-position: center;
+}
+
+.banner-logo{
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 80%;
+}
+
+.banner-logo .facebook-logo{
+    max-width: 70px;
+    fill: #3b5998;
+    margin-bottom: 30px;
+}
+
+.strong-blue{
+    color: #3b5998;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2 1 auto;
+    height: 100vh;
+    border-left: 2.9px solid #aeaaaa85;
+}
+
+.form-container h2{
+    margin-bottom: 20px;
+    align-self: baseline;
+    padding: 0 95px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0 95px;
+}
+
+.form-input form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input form input{
+    padding: 18px;
+    border: 1px solid #aeaaaa85;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.form-input .submit-btn{
+    background-color: #3b5998;
+    color: #FFF;
+    border-radius: 20px;
+}
+
+.form-input a{
+    align-self: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+
+}
+
+.form-container svg{
+    display: flex;
+    width: 90px;
+    align-self: center;
+}
+
+.form-input .forgot-password{
+    margin-bottom: 20%;
+}
+
+
+.form-input .account-create{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3b5998;
+    border-radius: 20px;
+    color: #3b5998;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    min-width: 100vh;
+    border-top: 1px solid #aeaaaa85;
+}
+
+footer .footer-links{
+    display: flex;
+    list-style: none;
+}
+
+.footer-links li{
+    margin-right: 10px;
+    color: #000;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links li a:hover{
+    text-decoration: underline;
+    color: #00F;
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Laptops */
+@media (max-width: 1200px){
+    .banner-text{
+        display: none;
+    }
+
+    .banner-container img{
+        display: none;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-container{
+        flex: 1 1 10%;
+        border-left: none;
+        border-bottom: 1px solid #aeaaaa85;
+        min-width: 100%;
+    }
+    .banner-content .banner-logo{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .form-container{
+        flex: 1 1 90%;
+        padding: 0 20px;
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .form-input .forgot-password{
+        margin-bottom: 10rem;
+    }
+
+    .form-container svg{
+        margin-bottom: 25px;
+    }
+
+
+    .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media(max-width: 480px){
+
+
+}
