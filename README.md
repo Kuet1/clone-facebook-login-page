@@ -42,5 +42,5 @@ O projeto foi testado e otimizado para os seguintes breakpoints:
 
 ## ✒️ Autor
 
-* **Kauet Dias** - [Seu GitHub](https://github.com/Kuet1)
+* **Kauet Dias** - [Kuet1](https://github.com/Kuet1)
 ---
